@@ -100,3 +100,5 @@ This is like performance metric to evaluate our model in production, so here i'm
 if we build two models, we split the users into 2 categories named A and B. we deploy both models on both categories and compare the resutls and decide the better model.
 
 
+Data Source : amazon.com
+
