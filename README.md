@@ -14,10 +14,10 @@ Content based recommendation: As its name suggests, we do content based recommen
 
 Collobarative filtering based recommendation: This recommendations are done based on the behaviour of the user.A small example can be seen,
 
-if    U1 ===> I1,I2 ,I3   (Purchases or Searches)   # U-User , I-Item
-and   U2 ===> I1,I3,I4
-then  U3 ===> I1,(I3)      # recommend user 3 item I3 as he purchased I1.
-U3's recommendations came from behaviour of similar users as he purchased I1. This is Collobarative filtering. But, Amazon doesnt provide users data, so we are not going to do collobarative filtering. Instead we use content based.
+       if    U1 ===> I1,I2 ,I3   (Purchases or Searches)   # U-User , I-Item
+       and   U2 ===> I1,I3,I4
+       then  U3 ===> I1,(I3)      # recommend user 3 item I3 as he purchased I1.
+       U3's recommendations came from behaviour of similar users as he purchased I1. This is Collobarative filtering. But, Amazon doesnt provide users data, so we are not going      to do collobarative filtering. Instead we use content based.
 
 Plan of Attack
 
@@ -36,7 +36,7 @@ Steps:
 1. Data Aquisition:
 We can use Amazon's Product Advertising API, and get the required data. We took womens tops as the dataset . It consists of 183000 datapoints, having 19 features each.
 
-Index(['asin', 'author', 'availability', 'availability_type', 'brand', 'color',
+       Index(['asin', 'author', 'availability', 'availability_type', 'brand', 'color',
        'editorial_reivew', 'editorial_review', 'formatted_price',
        'large_image_url', 'manufacturer', 'medium_image_url', 'model',
        'product_type_name', 'publisher', 'reviews', 'sku', 'small_image_url',
