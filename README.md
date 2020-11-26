@@ -15,7 +15,7 @@ Content based recommendation: As its name suggests, we do content based recommen
 Collobarative filtering based recommendation: This recommendations are done based on the behaviour of the user.A small example can be seen,
 
        if    U1 ===> I1,I2 ,I3   (Purchases or Searches)   # U-User , I-Item
-       and   U2 ===> I1,I3,I4
+       and   U2 ===> I1,I3,I4.
        then  U3 ===> I1,(I3)      # recommend user 3 item I3 as he purchased I1.
        U3's recommendations came from behaviour of similar users as he purchased I1. This is Collobarative filtering. But, Amazon doesnt provide users data, so we are not going      to do collobarative filtering. Instead we use content based.
 
